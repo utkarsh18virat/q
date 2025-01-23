@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to Shubhkarsh's World</title>
+  <style>
+    /* General Styling */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(135deg, #ffe4e1, #ffb6c1);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      overflow: hidden;
+      color: #333;
+      position: relative; /* To enable absolute positioning of the corner images */
+    }
+
+    h1, h2, p {
+      margin: 0;
+      text-align: center;
+    }
+
+    /* Header Section */
+    .header {
+      font-size: 2.5em;
+      margin-bottom: 60px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .stopwatch {
+      font-size: 1em;
+      font-weight: bold;
+      color: #ff3366;
+      margin-top: 10px;
+    }
+
+    /* Photo Frame Section */
+    .photo-frame {
+      width: 300px;
+      height: 300px;
+      border: 15px solid #ff3366;
+      border-radius: 50%;
+      overflow: hidden;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+      margin-bottom: 20px;
+    }
+
+    .photo-frame img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    /* Welcome Text */
+    .welcome-text {
+      font-size: 1.8em;
+      background: #fff;
+      padding: 15px 30px;
+      border-radius: 25px;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+      color: #ff3366;
+      text-align: center;
+    }
+
+    /* Love Image in All Four Corners */
+    .corner-image {
+      position: absolute;
+      width: 50px; /* Adjust size as needed */
+      height: 50px;
+    }
+
+    .top-left {
+      top: 10px;
+      left: 10px;
+    }
+
+    .top-right {
+      top: 10px;
+      right: 10px;
+    }
+
+    .bottom-left {
+      bottom: 10px;
+      left: 10px;
+    }
+
+    .bottom-right {
+      bottom: 10px;
+      right: 10px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header Section -->
+  <div class="header">
+    <div>We have been together for:</div>
+    <div class="stopwatch" id="stopwatch">536 days, 20 hours, 15 minutes, 50 seconds</div>
+  </div>
+
+  <!-- Photo Frame -->
+  <div class="photo-frame">
+    <img src="IMG_2804.png" alt="Your Photo" /> <!-- Use the relative path -->
+  </div>
+
+  <!-- Welcome Text -->
+  <div class="welcome-text">
+    Welcome to the world of Shubhkarsh ❤️
+  </div>
+
+  <!-- Love Image in All Four Corners -->
+  <img src="love.png" alt="Love" class="corner-image top-left" />
+  <img src="love.png" alt="Love" class="corner-image top-right" />
+  <img src="love.png" alt="Love" class="corner-image bottom-left" />
+  <img src="love.png" alt="Love" class="corner-image bottom-right" />
+
+  <!-- Additional Love Images at Specific Positions -->
+  <img src="love.png" alt="Love" class="corner-image" style="top: 10px; left: 70px;" />
+  <img src="love.png" alt="Love" class="corner-image" style="top: 10px; left: 130px;" />
+  <img src="love.png" alt="Love" class="corner-image" style="top: 10px; left: 190px;" />
+  <img src="love.png" alt="Love" class="corner-image" style="top: 10px; left: 250px;" />
+  <img src="love.png" alt="Love" class="corner-image" style="top: 10px; left: 310px;" />
+  <img src="love.png" alt="Love" class="corner-image" style="top: 10px; left: 370px;" />
+  <img src="love.png" alt="Love" class="corner-image" style="top: 10px; left: 430px;" />
+  <img src="love.png" alt="Love" class="corner-image" style="top: 10px; left: 490px;" />
+  <img src="love.png" alt="Love" class="corner-image" style="top: 10px; left: 550px;" />
+  <img src="love.png" alt="Love" class="corner-image" style="top: 10px; left: 610px;" />
+  <img src="love.png" alt="Love" class="corner-image" style="top: 10px; left: 670px;" />
+  <img src="love.png" alt="Love" class="corner-image" style="top: 10px; left: 730px;" />
+  <img src="love.png" alt="Love" class="corner-image" style="top: 10px; left: 790px;" />
+  <img src="love.png" alt="Love" class="corner-image" style="top: 10px; left: 850px;" />
+  <img src="love.png" alt="Love" class="corner-image" style="top: 10px; left: 910px;" />
+  <img src="love.png" alt="Love" class="corner-image" style="top: 10px; left: 970px;" />
+  <img src="love.png" alt="Love" class="corner-image" style="top: 10px; left: 1030px;" />
+  <img src="love.png" alt="Love" class="corner-image" style="top: 10px; left: 1090px;" />
+  <img src="love.png" alt="Love" class="corner-image" style="top: 10px; left: 1150px;" />
+  <img src="love.png" alt="Love" class="corner-image" style="top: 10px; left: 1210px;" />
+  <img src="love.png" alt="Love" class="corner-image" style="top: 10px; left: 1270px;" />
+  <img src="love.png" alt="Love" class="corner-image" style="top: 10px; left: 1330px;" />
+  <img src="love.png" alt="Love" class="corner-image" style="top: 10px; left: 1390px;" />
+  <img src="love.png" alt="Love" class="corner-image" style="bottom: 10px; left: 70px;" />
+<img src="love.png" alt="Love" class="corner-image" style="bottom: 10px; left: 130px;" />
+<img src="love.png" alt="Love" class="corner-image" style="bottom: 10px; left: 190px;" />
+<img src="love.png" alt="Love" class="corner-image" style="bottom: 10px; left: 250px;" />
+<img src="love.png" alt="Love" class="corner-image" style="bottom: 10px; left: 310px;" />
+<img src="love.png" alt="Love" class="corner-image" style="bottom: 10px; left: 370px;" />
+<img src="love.png" alt="Love" class="corner-image" style="bottom: 10px; left: 430px;" />
+<img src="love.png" alt="Love" class="corner-image" style="bottom: 10px; left: 490px;" />
+<img src="love.png" alt="Love" class="corner-image" style="bottom: 10px; left: 550px;" />
+<img src="love.png" alt="Love" class="corner-image" style="bottom: 10px; left: 610px;" />
+<img src="love.png" alt="Love" class="corner-image" style="bottom: 10px; left: 670px;" />
+<img src="love.png" alt="Love" class="corner-image" style="bottom: 10px; left: 730px;" />
+<img src="love.png" alt="Love" class="corner-image" style="bottom: 10px; left: 790px;" />
+<img src="love.png" alt="Love" class="corner-image" style="bottom: 10px; left: 850px;" />
+<img src="love.png" alt="Love" class="corner-image" style="bottom: 10px; left: 910px;" />
+<img src="love.png" alt="Love" class="corner-image" style="bottom: 10px; left: 970px;" />
+<img src="love.png" alt="Love" class="corner-image" style="bottom: 10px; left: 1030px;" />
+<img src="love.png" alt="Love" class="corner-image" style="bottom: 10px; left: 1090px;" />
+<img src="love.png" alt="Love" class="corner-image" style="bottom: 10px; left: 1150px;" />
+<img src="love.png" alt="Love" class="corner-image" style="bottom: 10px; left: 1210px;" />
+<img src="love.png" alt="Love" class="corner-image" style="bottom: 10px; left: 1270px;" />
+<img src="love.png" alt="Love" class="corner-image" style="bottom: 10px; left: 1330px;" />
+<img src="love.png" alt="Love" class="corner-image" style="bottom: 10px; left: 1390px;" />
+<img src="love.png" alt="Love" class="corner-image" style="left: 10px; top: 70px;" />
+<img src="love.png" alt="Love" class="corner-image" style="left: 10px; top: 130px;" />
+<img src="love.png" alt="Love" class="corner-image" style="left: 10px; top: 190px;" />
+<img src="love.png" alt="Love" class="corner-image" style="left: 10px; top: 250px;" />
+<img src="love.png" alt="Love" class="corner-image" style="left: 10px; top: 310px;" />
+<img src="love.png" alt="Love" class="corner-image" style="left: 10px; top: 370px;" />
+<img src="love.png" alt="Love" class="corner-image" style="left: 10px; top: 430px;" />
+<img src="love.png" alt="Love" class="corner-image" style="left: 10px; top: 490px;" />
+<img src="love.png" alt="Love" class="corner-image" style="left: 10px; top: 550px;" />
+<img src="love.png" alt="Love" class="corner-image" style="left: 10px; top: 610px;" />
+<img src="love.png" alt="Love" class="corner-image" style="left: 10px; top: 670px;" />
+<img src="love.png" alt="Love" class="corner-image" style="left: 10px; top: 730px;" />
+<img src="love.png" alt="Love" class="corner-image" style="left: 10px; top: 790px;" />
+<img src="love.png" alt="Love" class="corner-image" style="left: 10px; top: 850px;" />
+<img src="love.png" alt="Love" class="corner-image" style="left: 10px; top: 910px;" />
+<img src="love.png" alt="Love" class="corner-image" style="left: 10px; top: 970px;" />
+<img src="love.png" alt="Love" class="corner-image" style="left: 10px; top: 1030px;" />
+<img src="love.png" alt="Love" class="corner-image" style="left: 10px; top: 1090px;" />
+<img src="love.png" alt="Love" class="corner-image" style="left: 10px; top: 1150px;" />
+<img src="love.png" alt="Love" class="corner-image" style="left: 10px; top: 1210px;" />
+<img src="love.png" alt="Love" class="corner-image" style="left: 10px; top: 1270px;" />
+<img src="love.png" alt="Love" class="corner-image" style="left: 10px; top: 1330px;" />
+<img src="love.png" alt="Love" class="corner-image" style="left: 10px; top: 1390px;" />
+<img src="love.png" alt="Love" class="corner-image" style="right: 10px; top: 70px;" />
+<img src="love.png" alt="Love" class="corner-image" style="right: 10px; top: 130px;" />
+<img src="love.png" alt="Love" class="corner-image" style="right: 10px; top: 190px;" />
+<img src="love.png" alt="Love" class="corner-image" style="right: 10px; top: 250px;" />
+<img src="love.png" alt="Love" class="corner-image" style="right: 10px; top: 310px;" />
+<img src="love.png" alt="Love" class="corner-image" style="right: 10px; top: 370px;" />
+<img src="love.png" alt="Love" class="corner-image" style="right: 10px; top: 430px;" />
+<img src="love.png" alt="Love" class="corner-image" style="right: 10px; top: 490px;" />
+<img src="love.png" alt="Love" class="corner-image" style="right: 10px; top: 550px;" />
+<img src="love.png" alt="Love" class="corner-image" style="right: 10px; top: 610px;" />
+<img src="love.png" alt="Love" class="corner-image" style="right: 10px; top: 670px;" />
+<img src="love.png" alt="Love" class="corner-image" style="right: 10px; top: 730px;" />
+<img src="love.png" alt="Love" class="corner-image" style="right: 10px; top: 790px;" />
+<img src="love.png" alt="Love" class="corner-image" style="right: 10px; top: 850px;" />
+<img src="love.png" alt="Love" class="corner-image" style="right: 10px; top: 910px;" />
+<img src="love.png" alt="Love" class="corner-image" style="right: 10px; top: 970px;" />
+<img src="love.png" alt="Love" class="corner-image" style="right: 10px; top: 1030px;" />
+<img src="love.png" alt="Love" class="corner-image" style="right: 10px; top: 1090px;" />
+<img src="love.png" alt="Love" class="corner-image" style="right: 10px; top: 1150px;" />
+<img src="love.png" alt="Love" class="corner-image" style="right: 10px; top: 1210px;" />
+<img src="love.png" alt="Love" class="corner-image" style="right: 10px; top: 1270px;" />
+<img src="love.png" alt="Love" class="corner-image" style="right: 10px; top: 1330px;" />
+<img src="love.png" alt="Love" class="corner-image" style="right: 10px; top: 1390px;" />
+
+
+  
+ 
+
+  <script>
+    // JavaScript Stopwatch
+    let days = 536;
+    let hours = 20;
+    let minutes = 15;
+    let seconds = 50;
+
+    function updateStopwatch() {
+      seconds++;
+
+      if (seconds === 60) {
+        seconds = 0;
+        minutes++;
+      }
+
+      if (minutes === 60) {
+        minutes = 0;
+        hours++;
+      }
+
+      if (hours === 24) {
+        hours = 0;
+        days++;
+      }
+
+      document.getElementById("stopwatch").innerText = 
+        `${days} days, ${hours} hours, ${minutes} minutes, ${seconds} seconds`;
+    }
+
+    // Update Stopwatch Every Second
+    setInterval(updateStopwatch, 1000);
+  </script>
+</body>
+</html>
